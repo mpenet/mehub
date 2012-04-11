@@ -4,7 +4,7 @@
    [mehub.module.github :as mod-github]
    [mehub.module.github :as mod-twitter]))
 
-(defn init
+(defn ^:export init
   [opts]
   (let [options (js->clj opts :keywordize-keys true)]
     (doseq [[mod-name mod-opts] (:modules options)]

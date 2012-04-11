@@ -2433,7 +2433,7 @@ a:hover {
 }
 .repo a {
   text-decoration: none;
-  height: 135px;
+  min-height: 135px;
   display: block;
   position: relative;
   color: #568c58;

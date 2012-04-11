@@ -161,21 +161,30 @@ a:hover{
 
     }
 
-    .fork-ribbon{
+    .ribbon{
         .rotate(45deg);
-        background: red;
+
         height: 15px;
         width: 60px;
         position:absolute;
         right: -15px;
         top: 8px;
-        .box-shadow(1px 1px 5px 1px darken(red, 20%));
-
         color: #fff;
         text-align: center;
         font-weight: bold;
         line-height: @baseLineHeight - 1;
         text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .fork-ribbon{
+        background: green;
+        .box-shadow(1px 1px 5px 1px darken(green, 20%));
+    }
+
+    .owner-ribbon{
+        background: @orange;
+        .box-shadow(1px 1px 5px 1px darken(@orange, 20%));
+
     }
 
     &.fork{

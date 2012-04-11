@@ -21,8 +21,9 @@
                        " fork")
                      (str " c" (js/Math.ceil (* 10 (js/Math.random)))))}
    [:a {:href (:html_url repository)}
-    (when  (:fork repository)
-      [:div.fork-ribbon.icon-random])
+    (if (:fork repository)
+      [:div.ribbon.fork-ribbon.icon-random {:title "Forked repository"}]
+      [:div.ribbon.owner-ribbon.icon-star {:title "Owner of this repository"}])
     [:h2 (:name repository)]
     [:h3 (:language repository)]
     [:p (:description repository)]

@@ -3179,7 +3179,7 @@ function ae(a) {
   return O.call(h, "<div", Y.call(h, T(["\ufdd0'id", "\ufdd0'class"], {"\ufdd0'id":h, "\ufdd0'class":O.call(h, "span3  repo", function() {
     var c = "\ufdd0'language".call(h, a);
     return t(c) ? O.call(h, " ", $d.call(h, c)) : h
-  }(), t("\ufdd0'fork".call(h, a)) ? " fork" : h, O.call(h, " c", Math.ceil.call(h, 10 * Math.random.call(h))))})), ">", "<a", Y.call(h, T(["\ufdd0'href", "\ufdd0'id", "\ufdd0'class"], {"\ufdd0'href":"\ufdd0'html_url".call(h, a), "\ufdd0'id":h, "\ufdd0'class":h})), ">", Z.call(h, t("\ufdd0'fork".call(h, a)) ? S(["\ufdd0'div.fork-ribbon.icon-random"]) : h), function() {
+  }(), t("\ufdd0'fork".call(h, a)) ? " fork" : h, O.call(h, " c", Math.ceil.call(h, 10 * Math.random.call(h))))})), ">", "<a", Y.call(h, T(["\ufdd0'href", "\ufdd0'id", "\ufdd0'class"], {"\ufdd0'href":"\ufdd0'html_url".call(h, a), "\ufdd0'id":h, "\ufdd0'class":h})), ">", t("\ufdd0'fork".call(h, a)) ? O.call(h, '<div class="ribbon fork-ribbon icon-random" title="Forked repository"></div>') : O.call(h, '<div class="ribbon owner-ribbon icon-star" title="Owner of this repository"></div>'), function() {
     var c = "\ufdd0'name".call(h, a);
     return t(ob.call(h, c)) ? O.call(h, "<h2", Y.call(h, Ic.call(h, T(["\ufdd0'id", "\ufdd0'class"], {"\ufdd0'id":h, "\ufdd0'class":h}), c)), ">", "</h2>") : O.call(h, "<h2>", Z.call(h, c), "</h2>")
   }(), function() {

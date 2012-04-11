@@ -2463,7 +2463,7 @@ a:hover {
   margin: 15px;
   overflow: hidden;
 }
-.repo .fork-ribbon {
+.repo .ribbon {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -2474,23 +2474,34 @@ a:hover {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  background: red;
   height: 15px;
   width: 60px;
   position: absolute;
   right: -15px;
   top: 8px;
-  -webkit-box-shadow: 1px 1px 5px 1px #990000;
-  -moz-box-shadow: 1px 1px 5px 1px #990000;
-  box-shadow: 1px 1px 5px 1px #990000;
-  -webkit-box-shadow: 1px 1px 5px 1px #990000;
-  -moz-box-shadow: 1px 1px 5px 1px #990000;
-  box-shadow: 1px 1px 5px 1px #990000;
   color: #fff;
   text-align: center;
   font-weight: bold;
   line-height: 17px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.repo .fork-ribbon {
+  background: green;
+  -webkit-box-shadow: 1px 1px 5px 1px #001a00;
+  -moz-box-shadow: 1px 1px 5px 1px #001a00;
+  box-shadow: 1px 1px 5px 1px #001a00;
+  -webkit-box-shadow: 1px 1px 5px 1px #001a00;
+  -moz-box-shadow: 1px 1px 5px 1px #001a00;
+  box-shadow: 1px 1px 5px 1px #001a00;
+}
+.repo .owner-ribbon {
+  background: #f89406;
+  -webkit-box-shadow: 1px 1px 5px 1px #945904;
+  -moz-box-shadow: 1px 1px 5px 1px #945904;
+  box-shadow: 1px 1px 5px 1px #945904;
+  -webkit-box-shadow: 1px 1px 5px 1px #945904;
+  -moz-box-shadow: 1px 1px 5px 1px #945904;
+  box-shadow: 1px 1px 5px 1px #945904;
 }
 .repo .meta {
   position: absolute;

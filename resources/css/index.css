@@ -2295,7 +2295,7 @@ li[class*=" icon-"].icon-large:before {
 /* .c9 { background: #F0F;  } */
 /* .c10{ background: #F08; } */
 body {
-  background: #1D1F20;
+  background: #1d1f20 url(../images/bg.png);
   color: #999999;
 }
 a:hover {

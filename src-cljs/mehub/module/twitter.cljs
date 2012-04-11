@@ -17,8 +17,8 @@
     (str (pad (inc (.getMonth d))) "."
          (pad (inc (.getUTCDay d)))
          "@"
-         (.getUTCHours d) ":"
-         (.getUTCMinutes d))))
+         (pad (.getUTCHours d)) ":"
+         (pad (.getUTCMinutes d)))))
 
 
 (hiccups/defhtml tweets-template [tweets]

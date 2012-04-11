@@ -3075,7 +3075,7 @@ function Rd(a, c) {
 }
 function Td(a) {
   a = new Date(a);
-  return O.call(h, Sd.call(h, a.getMonth() + 1), ".", Sd.call(h, a.getUTCDay() + 1), "@", a.getUTCHours(), ":", a.getUTCMinutes())
+  return O.call(h, Sd.call(h, a.getMonth() + 1), ".", Sd.call(h, a.getUTCDay() + 1), "@", Sd.call(h, a.getUTCHours()), ":", Sd.call(h, a.getUTCMinutes()))
 }
 function Ud(a) {
   return O.call(h, "<ul", ' class="tweets"', ">", Q.call(h, O, function() {

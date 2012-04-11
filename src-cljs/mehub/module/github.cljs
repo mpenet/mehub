@@ -35,10 +35,12 @@
   [:div.user
    [:h2
     [:a {:href (:html_url user)}
-     (str "> "(:login user) "@github")]]
-   [:div.info
-    [:img {:src (:avatar_url user)}]
-    (:name user)]
+     (str (:login user) "@github")]]
+   [:img.icon {:src (:avatar_url user)}]
+   (when-let [n (:name user)]
+     [:p.name
+      [:i.icon-user]
+      n])
    (when-let [b (:blog user)]
      [:p.blog
       [:i.icon-home]

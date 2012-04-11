@@ -29,7 +29,7 @@
       [:span.text (:text t)]])])
 
 (hiccups/defhtml header-template [user]
-  [:h2 [:a {:href (str "http://twitter.com/" user)} (str "> " user "@twitter")] ])
+  [:h2 [:a {:href (str "http://twitter.com/" user)} (str user "@twitter" )] ])
 
 (defn load-tweets
   [user max-tweets complete]

@@ -3099,7 +3099,7 @@ function Ud(a) {
   }()), "</ul>")
 }
 function Vd(a) {
-  return O.call(h, "<h2", "", ">", "<a", Y.call(h, T(["\ufdd0'href", "\ufdd0'id", "\ufdd0'class"], {"\ufdd0'href":O.call(h, "http://twitter.com/", a), "\ufdd0'id":h, "\ufdd0'class":h})), ">", Z.call(h, O.call(h, "> ", a, "@twitter")), "</a>", "</h2>")
+  return O.call(h, "<h2", "", ">", "<a", Y.call(h, T(["\ufdd0'href", "\ufdd0'id", "\ufdd0'class"], {"\ufdd0'href":O.call(h, "http://twitter.com/", a), "\ufdd0'id":h, "\ufdd0'class":h})), ">", Z.call(h, O.call(h, a, "@twitter")), "</a>", "</h2>")
 }
 function Wd(a, c, d) {
   return jQuery.getJSON(O.call(h, "http://api.twitter.com/1/statuses/user_timeline.json?", "count=", c, "&screen_name=", encodeURIComponent.call(h, a), "&callback=?"), function(a) {
@@ -3191,8 +3191,10 @@ function ae(a) {
   }(), "<span", ' class="meta"', ">", "<span", ' class="watchers"', ">", '<i class="icon-eye-open"></i>', Z.call(h, "\ufdd0'watchers".call(h, a)), "</span>", "<span", ' class="forks"', ">", '<i class="icon-random"></i>', Z.call(h, "\ufdd0'forks".call(h, a)), "</span>", "</span>", "</a>", "</div>")
 }
 function be(a) {
-  return O.call(h, "<div", ' class="user"', ">", "<h2", "", ">", "<a", Y.call(h, T(["\ufdd0'href", "\ufdd0'id", "\ufdd0'class"], {"\ufdd0'href":"\ufdd0'html_url".call(h, a), "\ufdd0'id":h, "\ufdd0'class":h})), ">", Z.call(h, O.call(h, "> ", "\ufdd0'login".call(h, a), "@github")), "</a>", "</h2>", "<div", ' class="info"', ">", "<", "img", Y.call(h, T(["\ufdd0'src", "\ufdd0'id", "\ufdd0'class"], {"\ufdd0'src":"\ufdd0'avatar_url".call(h, a), "\ufdd0'id":h, "\ufdd0'class":h})), " />", Z.call(h, "\ufdd0'name".call(h, 
-  a)), "</div>", Z.call(h, function() {
+  return O.call(h, "<div", ' class="user"', ">", "<h2", "", ">", "<a", Y.call(h, T(["\ufdd0'href", "\ufdd0'id", "\ufdd0'class"], {"\ufdd0'href":"\ufdd0'html_url".call(h, a), "\ufdd0'id":h, "\ufdd0'class":h})), ">", Z.call(h, O.call(h, "\ufdd0'login".call(h, a), "@github")), "</a>", "</h2>", "<", "img", Y.call(h, T(["\ufdd0'src", "\ufdd0'id", "\ufdd0'class"], {"\ufdd0'src":"\ufdd0'avatar_url".call(h, a), "\ufdd0'id":h, "\ufdd0'class":"icon"})), " />", Z.call(h, function() {
+    var c = "\ufdd0'name".call(h, a);
+    return t(c) ? S(["\ufdd0'p.name", S(["\ufdd0'i.icon-user"]), c]) : h
+  }()), Z.call(h, function() {
     var c = "\ufdd0'blog".call(h, a);
     return t(c) ? S(["\ufdd0'p.blog", S(["\ufdd0'i.icon-home"]), S(["\ufdd0'a", T(["\ufdd0'href"], {"\ufdd0'href":c}), c])]) : h
   }()), Z.call(h, function() {

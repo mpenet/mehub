@@ -2348,7 +2348,7 @@ a:hover {
   padding: 15px;
 }
 #twitter-activity ul {
-  margin: -15px 0 -10px 0;
+  margin: -15px 0 -5px 0;
   padding: 0 15px 15px 15px;
   list-style: none;
   font-size: 15px;
@@ -2370,7 +2370,6 @@ a:hover {
   font-weight: bold;
   color: #568c58;
   font-size: 26px;
-  margin-bottom: 10px;
   font-family: 'Jura', sans-serif;
 }
 #gh-user h2:hover {
@@ -2380,24 +2379,26 @@ a:hover {
   color: #568c58;
   display: block;
 }
-#gh-user .info {
+#gh-user .icon {
   margin-bottom: 10px;
+  position: absolute;
   line-height: 20px;
   font-size: 15px;
 }
-#gh-user .info img {
+#gh-user .icon img {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  width: 20px;
-  height: 20px;
+  width: 80px;
+  height: 80px;
   margin-right: 5px;
   vertical-align: top;
 }
 #gh-user p {
+  margin: 5px 5px 5px  90px ;
   position: relative;
   padding: 0 0 0 25px;
   font-size: 15px;

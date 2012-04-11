@@ -2428,9 +2428,6 @@ a:hover {
   border-radius: 8px;
   position: relative;
 }
-.repo:hover {
-  background-color: #0d0d0d;
-}
 .repo a {
   text-decoration: none;
   min-height: 135px;

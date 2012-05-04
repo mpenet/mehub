@@ -77,7 +77,7 @@
   (.getJSON js/jQuery
             (str "https://api.github.com/users/"
                  (js/encodeURIComponent user)
-                 "/repos?callback=?")
+                 "/repos?per_page=100&callback=?")
             (fn [data]
               (complete (js->clj data :keywordize-keys true)))))
 
@@ -86,7 +86,7 @@
   (.getJSON js/jQuery
             (str "https://api.github.com/users/"
                  (js/encodeURIComponent user)
-                 "/events?&per_page=10&callback=?")
+                 "/events?per_page=10&callback=?")
             (fn [data]
               (complete (js->clj data :keywordize-keys true)))))
 

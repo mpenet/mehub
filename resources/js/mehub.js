@@ -3214,7 +3214,7 @@ function ce(a, c) {
   })
 }
 function de(a, c) {
-  return jQuery.getJSON(O.call(h, "https://api.github.com/users/", encodeURIComponent.call(h, a), "/repos?callback=?"), function(a) {
+  return jQuery.getJSON(O.call(h, "https://api.github.com/users/", encodeURIComponent.call(h, a), "/repos?per_page=100&callback=?"), function(a) {
     return c.call(h, $c.call(h, a, "\ufdd0'keywordize-keys", f))
   })
 }

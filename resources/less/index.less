@@ -118,6 +118,7 @@ a:hover{
 
     .boxed();
     position: relative;
+    height: 180;
     a{
         text-decoration: none;
         min-height: 135px;
@@ -135,10 +136,11 @@ a:hover{
     h2{
         padding: @box-padding - 5 @box-padding 0 @box-padding;
         margin: 0;
-        font-size: @baseFontSize + 15;
-        line-height: @baseLineHeight + 15;
+        font-size: @baseFontSize + 8;
+        line-height: @baseLineHeight + 8;
         overflow: hidden;
         text-overflow: ellipsis;
+        height: @baseLineHeight + 8;
         font-family: 'Jura', sans-serif;
     }
     h3{
@@ -154,12 +156,12 @@ a:hover{
         color: @secondary-color;
         margin: @box-padding;
         overflow:hidden;
-
+        text-overflow: ellipsis;
+        height: 40px;
     }
 
     .ribbon{
         .rotate(45deg);
-
         height: 15px;
         width: 60px;
         position:absolute;
